@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruyu.haidihan.helloworldtext.SeniorControl.DialogActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <Button
+            android:id="@+id/normalDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/normalDialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/multiBtnDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/multiBtnDialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/listDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/listDialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/singleChoiceDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/singleChoiceDialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/multiChoiceDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/multiChoiceDialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/waitingDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/waitingDialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/progressDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/progressDialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/inputDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/inputDialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/customizeDialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/customizeDialog"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

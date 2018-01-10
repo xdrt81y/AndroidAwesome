@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruyu.haidihan.helloworldtext.LayoutActivity.RelativeLayoutActivity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ruyu.haidihan.helloworldtext.LayoutActivity.RelativeLayoutActivity">
+
+        <Button
+            android:id="@+id/button_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="center"/>
+
+        <Button
+            android:id="@+id/button_above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_center"
+            android:layout_centerInParent="true"
+            android:text="above"/>
+
+        <Button
+            android:id="@+id/button_below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_center"
+            android:layout_centerInParent="true"
+            android:text="below"/>
+
+        <Button
+            android:id="@+id/button_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/button_center"
+            android:layout_centerVertical="true"
+            android:text="left"/>
+
+        <Button
+            android:id="@+id/button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/button_center"
+            android:layout_centerVertical="true"
+            android:text="right"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruyu.haidihan.helloworldtext.SeniorControl.SeniorControlActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <Button
+            android:id="@+id/autocompletionButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/autocompletion"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/listViewButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/listView"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/gridViewButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/gridView"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/adapterButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/adapter"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/spinnerButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/spinner"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/gallaryButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/gallary"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/scrollViewButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/scrollView"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/dialogButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/dialog"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/customListButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:text="@string/customList"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

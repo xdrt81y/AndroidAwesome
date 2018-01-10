@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ruyu.haidihan.helloworldtext">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SimpleControl.SimpleControlActivity"
+            android:label="@string/title_activity_simple_control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SimpleControl.RadioButtonActivity" />
+        <activity android:name=".SimpleControl.CheckBoxActivity" />
+        <activity android:name=".SimpleControl.MenuActivity" />
+        <activity android:name=".SeniorControl.SeniorControlActivity" />
+        <activity android:name=".RootActivity" />
+        <activity android:name=".SeniorControl.AutocompletionActivity" />
+        <activity android:name=".SeniorControl.ListViewActivity" />
+        <activity android:name=".SeniorControl.GridViewActivity" />
+        <activity android:name=".SeniorControl.AdapterActivity" />
+        <activity android:name=".SeniorControl.SpinnerActivity" />
+        <activity android:name=".SeniorControl.GalleryActivity" />
+        <activity android:name=".SeniorControl.ScrollViewActivity" />
+        <activity android:name=".SeniorControl.DialogActivity" />
+        <activity android:name=".LayoutActivity.LayoutViewActivity" />
+        <activity android:name=".LayoutActivity.LinearLayoutActivity" />
+        <activity android:name=".LayoutActivity.RelativeLayoutActivity" />
+        <activity android:name=".LayoutActivity.FrameLayoutActivity" />
+        <activity android:name=".LayoutActivity.TableLayoutActivity" />
+        <activity android:name=".MultiActivityManage.FirstActivity" />
+        <activity android:name=".MultiActivityManage.SecondActivity">
+            <intent-filter>
+                <action android:name="ACTION_SECOND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MultiActivityManage.FragmentMainActivity" />
+        <activity android:name=".SeniorControl.CustomListItem.CustomListItemActivity" />
+        <activity android:name=".Network.NetworkDemoActivity" />
+        <activity android:name=".SQLite.SQLiteActivity"></activity>
+    </application>
+
+</manifest>

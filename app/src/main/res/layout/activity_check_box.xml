@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruyu.haidihan.helloworldtext.SimpleControl.CheckBoxActivity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity" >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择：" />
+
+        <CheckBox
+            android:id="@+id/checkbox_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全选"
+            android:layout_alignBaseline="@id/textView"
+            android:layout_alignParentRight="true"/>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_below="@id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/checkbox_lanqiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="篮球"
+                android:checked="true"/><!-- 设置默认为选中状态 -->
+            <CheckBox
+                android:id="@+id/checkbox_zuqiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="足球"/>
+            <CheckBox
+                android:id="@+id/checkbox_paiqiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="排球"/>
+            <CheckBox
+                android:id="@+id/checkbox_pingpang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="乒乓球"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

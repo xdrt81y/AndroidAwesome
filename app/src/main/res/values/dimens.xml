@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="item_top_height">30dp</dimen>
+    <dimen name="item_top_font_size">15dp</dimen>
+    <dimen name="item_down_font_size">20dp</dimen>
+    <dimen name="item_top_title_size">25dp</dimen>
+</resources>

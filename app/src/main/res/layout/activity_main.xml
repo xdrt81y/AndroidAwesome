@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBgBlue">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bim_logo"/>
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_marginTop="40dp"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:hint="@string/userNameHitText"
+        android:textColorHint="@drawable/white"
+        android:textColor="@drawable/white"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:hint="@string/passwordHitText"
+        android:textColorHint="@drawable/white"
+        android:textColor="@drawable/white"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"/>
+
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:text="@string/logButtonText"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/msgTextView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@drawable/white"/>
+
+
+
+
+</LinearLayout>

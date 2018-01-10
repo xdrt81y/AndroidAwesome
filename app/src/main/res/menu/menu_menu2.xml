@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/menu1"  android:title="呵呵哒"></item>
+    <item  android:id="@+id/menu2"  android:title="滴滴"></item>
+    <item  android:id="@+id/menu3"  android:title="喔喔"></item>
+</menu>
