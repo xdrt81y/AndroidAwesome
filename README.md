@@ -34,11 +34,17 @@ Android学习路线
 第二阶段：Java Web开发
 
 1.Java解析XML文件DOM4J。
+
 2.MySql数据库的应用、多表连接查询的应用。
+
 3.Jsp和Servlet应用。
+
 4.Http协议解析。
+
 5.Tomcat服务器的应用配置。
+
 6.WebService服务配置应用。
+
 
 第三阶段：android UI编程
 
@@ -46,57 +52,88 @@ Android学习路线
 2、Android初级控件的使用：
 
 TextView控件的使用
+
 Button控件的使用方法
+
 EditText控件的使用方法
+
 ImageView的使用方法
+
 RadioButton的使用方法
+
 Checkbox的使用方法
+
 Menu的使用方法
+
 
 3、Android高级控件的使用：
 
 Autocompletion的使用方法
+
 ListView的使用方法
+
 GridView的使用方法
+
 Adapter的使用方法
+
 Spinner的使用方法 https://www.cnblogs.com/mercuryli/p/4926177.html
+
 Gallary的使用方法 已经弃用 http://blog.csdn.net/hellogv/article/details/5961525
+
 ScrollView的使用方法 http://download.csdn.net/download/plokmju88/5827505
 
 4、对话框与菜单的使用：
+
 https://www.cnblogs.com/gzdaijie/p/5222191.html
+
 Dialog的基本概念
+
 AlertDialog的使用方法
+
 DatePickerDialog的使用方法
+
 Menu的使用方法
+
 自定义Menu的实现方法
 
+
 5、控件的布局方法：
+
 https://www.cnblogs.com/ludashi/p/4883915.html
+
 线性布局的使用方法
+
 相对布局的使用方法
+
 表格布局的使用方法
 
 6、多Acitivity管理：
 
+
 AndroidManifest.xml文件的作用 ---相当于iOS的info.plist http://blog.csdn.net/clpliji/article/details/7469466
+
 Intent的使用方法  http://blog.csdn.net/xiao__gui/article/details/11392987
+
 使用Intent传递数据的方法  https://www.cnblogs.com/zhouhb/p/4170142.html
+
 启动Activity的方法
+
 IntentFilter的使用方法
+
 Activity Group的使用方法 --相当于iOS的UITabbarController，已经被废弃，被Fragment替代
 https://www.cnblogs.com/answer1991/archive/2012/05/08/2489844.html
+
 Fragment的使用方法
 http://blog.csdn.net/xiangzhihong8/article/details/38370237
 
 7、自定义控件实现方法：
 
 自定义ListView的实现方法  https://www.cnblogs.com/ludashi/p/5064579.html
+
 可折叠ListView的使用方法
 自定义Adapter的实现方法
 自定义View的实现方法
 动态控件布局的上实现方法
-
 
 第四阶段：android网络编程与数据存储
 
@@ -112,9 +149,11 @@ Apache Commons 工具包介绍
 使用Http协议实现断点续传
 
 RxJava+Retrofit+OkHttp实现网络请求 http://blog.csdn.net/column/details/13297.html
+
 一篇文章带你走通 OkHttp+Retrofit+Rxjava http://blog.csdn.net/u013647382/article/details/55682548
 
 2、Android数据存储技术：
+
 http://blog.csdn.net/codeeer/article/details/30237597/
 
 SQLite3数据库简介
@@ -126,7 +165,13 @@ SQLite3性能分析
 访问SDCard的方法
 访问SharedPreferences的方法
 
-3、ContentProvider使用方法：ContentProvider实现共享数据、URI的解析与UriMatcher、ContentUris的使用、使用ContentResolver操作ContentProvider、ContentProvider的监听Android当中的异步操作：Handler的使用方法；异步任务的基本概念；AsyncTask的使用方法。
+3、ContentProvider使用方法：
+ContentProvider实现共享数据、
+URI的解析与UriMatcher、
+ContentUris的使用、
+使用ContentResolver操作ContentProvider、
+ContentProvider的监听Android当中的异步操作：Handler的使用方法；
+异步任务的基本概念；AsyncTask的使用方法。
 
 
 第五阶段：android手机硬件管理
