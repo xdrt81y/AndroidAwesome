@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.ruyu.haidihan.helloworldtext.SimpleControl.SimpleControlActivity;
@@ -20,16 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
         // xml创建控件
         setContentView(R.layout.activity_main);
+        final ImageView logoImage = (ImageView)this.findViewById(R.id.logoImageView);
         final EditText userNameEdit = (EditText)this.findViewById(R.id.userNameEditText);
         final EditText passwordEdit = (EditText)this.findViewById(R.id.passwordEditText);
         final Button loginButton = (Button)this.findViewById(R.id.logButton);
+        final Button visitorLoginButton = (Button)this.findViewById(R.id.visitorLoginButton);
+        logoImage.setVisibility(View.INVISIBLE);
         textView = (TextView)this.findViewById(R.id.msgTextView);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-//                String str = "You have inputed " + userNameEdit.getText() + " " + passwordEdit.getText() ;
-//
-//                textView.setText(str);
 
                 String userName =  userNameEdit.getText().toString();
                 String pass = passwordEdit.getText().toString();
@@ -40,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     textView.setText("登录失败！");
                 }
+            }
+        });
+
+        visitorLoginButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this, RootActivity.class);
+            startActivity(intent);
             }
         });
 

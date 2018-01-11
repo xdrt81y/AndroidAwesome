@@ -3,6 +3,7 @@
     <string name="userNameHitText">请输入用户名</string>
     <string name="passwordHitText">请输入密码</string>
     <string name="logButtonText">登陆</string>
+    <string name="visitorLoginButtonText">游客登录</string>
     <string name="title_activity_simple_control">SimpleControlActivity</string>
 
     <string name="simpleControlButtonText">简单控件</string>
