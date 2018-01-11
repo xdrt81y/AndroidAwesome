@@ -8,16 +8,27 @@ Android学习路线
 第一阶段：Java面向对象编程
 
 1.Java基本数据类型与表达式，分支循环。
+
 2.String和StringBuffer的使用、正则表达式。
+
 3.面向对象的抽象，封装，继承，多态，类与对象，对象初始化和回收；构造函数、this关键字、方法和方法的参数传递过程、static关键字、内部类，Java的垃极回收机制，Javadoc介绍。
+
 4.对象实例化过程、方法的覆盖、final关键字、抽象类、接口、继承的优点和缺点剖析；对象的多态性：子类和父类之间的转换、抽象类和接口在多态中的应用、多态带来的好处。
+
 5.Java异常处理，异常的机制原理。
+
 6.常用的设计模式：Singleton、Template、Strategy模式。
+
 7.JavaAPI介绍：种基本数据类型包装类，System和Runtime类，Date和DateFomat类等。
+
 8.Java集合介绍：Collection、Set、List、ArrayList、Vector、LinkedList、Hashset、TreeSet、Map、HashMap、TreeMap、Iterator、Enumeration等常用集合类API。
+
 9.Java I/O输入输出流：File和FileRandomAccess类，字节流InputStream和OutputStream，字符流Reader和Writer，以及相应实现类，IO性能分析，字节和字符的转化流，包装流的概念，以及常用包装类，计算机编码。
+
 10.Java高级特性：反射、代理和泛型。
+
 11.多线程原理：如何在程序中创建多线程(Thread、Runnable)，线程安全问题，线程的同步，线程之间的通讯、死锁。
+
 12.Socket网络编程。
 
 第二阶段：Java Web开发
